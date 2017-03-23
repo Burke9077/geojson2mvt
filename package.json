@@ -20,6 +20,7 @@
   "author": "",
   "dependencies": {
     "geojson-vt": "^2.4.0",
+    "mkdirp": "^0.5.1",
     "vt-pbf": "^2.1.2"
   }
 }
