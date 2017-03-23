@@ -30,9 +30,9 @@ var getTileForProcessing = function(z, x, y, tileIndex, options, xPath) {
     }
 };
 
-var geojson2mvt = function(geoJson, options) {
+var geojson2mvt = function(geoJson, options, geojsonvtOptions) {
 
-    const tileIndex = geojsonvt(geoJson);
+    const tileIndex = geojsonvt(geoJson, geojsonvtOptions);
 
     // create the "root directory" to place downloaded tiles in
     try {
